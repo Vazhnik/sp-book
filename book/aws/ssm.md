@@ -1,5 +1,17 @@
 # SSM - Systems Manager
 
+
+## Enable EC2 Reporting
+[Link](https://aws.amazon.com/ru/blogs/mt/reporting-and-remediating-ec2-instances-that-aws-systems-manager-doesnt-list-as-managed-instances/)
+
+For an EC2 instance to be considered a managed instance in AWS Systems Manager, it must:
+
+- Be running a supported operating system
+- Be in an AWS Region that supports AWS Systems Manager
+- Have an IAM instance profile with permission to perform AWS Systems Manager actions on your instance
+- Have the AWS Systems Manager Agent installed and the service running
+- Be able to reach the Systems Manager endpoints with internet access or VPC endpoints
+
 ## Document
 Документ - некоторый набор функциональности закатанный в Document.
 Можно создавать свои документы.
